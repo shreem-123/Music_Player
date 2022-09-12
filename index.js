@@ -126,6 +126,7 @@ for(let i=0;i<musics.length;i++)
 
     let img=document.createElement("img");
     img.src=musics[i].imageSrc;
+    imageSrc.alt="/"
 
     thumbnail.append(img);
     tile.append(thumbnail);
