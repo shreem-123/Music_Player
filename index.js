@@ -171,5 +171,5 @@ function playMusic(music)
 function closePlayer()
 {
     document.querySelector(".player").style.marginLeft="100%";
-    // document.querySelector(".audio").pause();
+//     document.querySelector(".audio").pause();
 }
